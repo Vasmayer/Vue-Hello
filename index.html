@@ -11,7 +11,16 @@
     <title>Vue JS</title>
 </head>
 <body>
-    <header><h1>VUEJS</h1></header>
+    <header class="mb-4"><h1>VUEJS</h1></header>
+    <main>
+        <div class="container text-center">
+            <div id="root">
+                <div class="d-flex flex-column align-items-center justify-content-center">
+                    <img :src="{{image}}" alt="image">
+                </div>
+            </div>
+        </div>
+    </main>
   
     <script src="js/script.js"></script>
 </body>
