@@ -13,5 +13,4 @@ var app5 = new Vue({
     data: {
       image: 'https://picsum.photos/200'
     }
-    
   })
